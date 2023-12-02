@@ -79,7 +79,7 @@
               <div class="card">
                 <img class="card-img-top" src="https://github.com/rkuo2000/Liouhe-Night-Market-OMO/blob/main/images/S001_dumplings.jpg?raw=true" alt="方記水餃">
                 <div class="card-body">
-                  <h4 class="card-title text-center mb-0">方記水餃</h4>
+                  <h4 class="card-title text-center mb-0">水餃</h4>
                 </div>
               </div>  
               <div class="card">
@@ -131,7 +131,23 @@
                 <div class="card-body">
                   <h4 class="card-title text-center mb-0">商品9</h4>
                 </div>
-              </div>       
+              </div> 
+              <div>
+                <table id="myTable">
+                <tr>
+                  <td>水餃</td>
+                  <td>10.00</td>
+                  <td><input type="checkbox"></td>
+                </tr>
+                <tr>
+                  <td>木瓜牛奶</td>
+                  <td>60.00</td>
+                  <td><input type="checkbox"></td>
+                </tr>
+                </table>
+                <span id="val">The subtotal is: </span>
+                <button onclick="calculate()">Calculate subtotal</button>
+              </div>              
               
             </div>
           </div>
@@ -217,23 +233,7 @@
         </div>
       </div>
     </div>
-
-    <div>
-        <table id="myTable">
-        <tr>
-          <td>T-Shirt</td>
-          <td>9.99</td>
-          <td><input type="checkbox"></td>
-        </tr>
-        <tr>
-          <td>Pants</td>
-          <td>49.99</td>
-          <td><input type="checkbox"></td>
-        </tr>
-        </table>
-        <span id="val">The subtotal is: </span>
-        <button onclick="calculate()">Calculate subtotal</button>
-    </div>
+    
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

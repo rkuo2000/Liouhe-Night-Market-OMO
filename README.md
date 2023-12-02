@@ -1,7 +1,7 @@
 # Liouhe-Night-Market-OMO
 Night Market Online Menu Ordering System
 
-# 六合夜市 線上點餐系統
+# 六合夜市-智慧點餐系統
 
 ## 系統功能
 1. 手機掃描QR code進入網頁 (無須安裝App)

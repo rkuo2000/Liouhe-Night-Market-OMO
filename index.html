@@ -13,7 +13,6 @@
   <body>
     <div class="container">
       <h1>六合夜市智慧點餐</h1>
-
       
       <style>
         /* 圖片來源：https://hackmd.io/@ugm/SJ66fUfiU */
@@ -97,53 +96,38 @@
               <div class="card">
                 <img class="card-img-top" src="https://github.com/rkuo2000/Liouhe-Night-Market-OMO/blob/main/images/S005_Teppanyaki_fried_rice.jpg?raw=true" alt="烤肉之家">
                 <div class="card-body">
-                  <h4 class="card-title text-center mb-0">BBQ烤肉</h4>
+                  <h4 class="card-title text-center mb-0">烤肉串</h4>
                 </div>
               </div>  
-              <div class="card">
-                <img class="card-img-top" src="https://github.com/rkuo2000/Liouhe-Night-Market-OMO/blob/main/images/PUnknown.jpg?raw=true" alt="商品6">
-                <div class="card-body">
-                  <h4 class="card-title text-center mb-0">鐵板炒飯</h4>
-                </div>
-              </div> 
-              
-              <div class="card">
-                <img class="card-img-top" src="https://github.com/rkuo2000/Liouhe-Night-Market-OMO/blob/main/images/PUnknown.jpg?raw=true" alt="商品6">
-                <div class="card-body">
-                  <h4 class="card-title text-center mb-0">商品6</h4>
-                </div>
-              </div>     
-              
-              <div class="card">
-                <img class="card-img-top" src="https://github.com/rkuo2000/Liouhe-Night-Market-OMO/blob/main/images/PUnknown.jpg?raw=true" alt="商品7">
-                <div class="card-body">
-                  <h4 class="card-title text-center mb-0">商品7</h4>
-                </div>
-              </div>  
-              <div class="card">
-                <img class="card-img-top" src="https://github.com/rkuo2000/Liouhe-Night-Market-OMO/blob/main/images/PUnknown.jpg?raw=true" alt="商品8">
-                <div class="card-body">
-                  <h4 class="card-title text-center mb-0">商品8</h4>
-                </div>
-              </div>          
-              <div class="card">
-                <img class="card-img-top" src="https://github.com/rkuo2000/Liouhe-Night-Market-OMO/blob/main/images/PUnknown.jpg?raw=true" alt="商品9">
-                <div class="card-body">
-                  <h4 class="card-title text-center mb-0">商品9</h4>
-                </div>
-              </div> 
+             
               <div>
                 <table id="myTable">
                 <tr>
                   <td>水餃</td>
                   <td>10.00</td>
-                  <td><input type="checkbox"></td>
+                  <td><input type="number" id="item1" name="dumplings" min="0" max="99" /></td>
                 </tr>
                 <tr>
                   <td>木瓜牛奶</td>
                   <td>60.00</td>
-                  <td><input type="checkbox"></td>
+                  <td><input type="number" id="item2" name="papaya_milk" min="0" max="99" /></td>
                 </tr>
+                <tr>
+                  <td>鱔魚麵</td>
+                  <td>80.00</td>
+                  <td><input type="number" id="item3" name="eel_noodles" min="0" max="99" /></td>
+                </tr>
+                <tr>
+                  <td>烤肉串</td>
+                  <td>30.00</td>
+                  <td><input type="number" id="item4" name="barbeque" min="0" max="99" /></td>
+                </tr>
+                <tr>
+                  <td>鐵板炒麵</td>
+                  <td>100.00</td>
+                  <td><input type="number" id="item5" name="teppanyaki_fried_rice" min="0" max="99" /></td>
+                </tr>                   
+
                 </table>
                 <span id="val">The subtotal is: </span>
                 <button onclick="calculate()">Calculate subtotal</button>
@@ -190,33 +174,7 @@
                 <div class="card-body">
                   <h4 class="card-title text-center mb-0">商品5</h4>
                 </div>
-              </div> 
-              
-              <div class="card">
-                <img class="card-img-top" src="https://picsum.photos/200/300?random=6" alt="商品6">
-                <div class="card-body">
-                  <h4 class="card-title text-center mb-0">商品6</h4>
-                </div>
-              </div>     
-              
-              <div class="card">
-                <img class="card-img-top" src="https://picsum.photos/200/300?random=7" alt="商品7">
-                <div class="card-body">
-                  <h4 class="card-title text-center mb-0">商品7</h4>
-                </div>
-              </div>  
-              <div class="card">
-                <img class="card-img-top" src="https://picsum.photos/200/300?random=8" alt="商品8">
-                <div class="card-body">
-                  <h4 class="card-title text-center mb-0">商品8</h4>
-                </div>
-              </div>          
-              <div class="card">
-                <img class="card-img-top" src="https://picsum.photos/200/300?random=9" alt="商品9">
-                <div class="card-body">
-                  <h4 class="card-title text-center mb-0">商品9</h4>
-                </div>
-              </div>       
+              </div>                    
               
             </div>
           </div>
